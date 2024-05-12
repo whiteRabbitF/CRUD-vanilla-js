@@ -1,0 +1,116 @@
+.user-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #4CAF50;
+    margin-right: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.user-card svg {
+    fill: #4CAF50;
+}
+
+.user-card svg path {
+    stroke: #FFFFFF;
+}
+
+.user-card {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    width: 800px;
+    margin: 35px auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h1{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.user-info {
+    background-color: #064b08;
+    font-size: 14pt;
+    background-color: #FFFFFF;
+    width: 200px;
+
+}
+
+.delete-button {
+    display: block;
+    border-radius: 20px;
+    background: transparent;
+    width: 150px;
+    height: 50px;
+    font-size: 16pt;
+    border: none;
+    background-color: rgb(194, 29, 29);
+    color: #FFFFFF;
+}
+
+.delete-button:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.add-user {
+    width: 800px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto;
+    gap: 20px;
+}
+
+.add-user input {
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 12pt;
+    border: 1px black solid;
+}
+
+.add-user button {
+    background: transparent;
+    border: none;
+    width: 300px;
+    height: 50px;
+    color: white;
+    background-color: rgb(8, 116, 56);
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 16pt;
+}
+
+.add-user button:hover {
+    background-color: rgb(41, 158, 94);
+    cursor: pointer;
+}
+
+.edit-button {
+    display: block;
+    border-radius: 20px;
+    background: transparent;
+    width: 200px;
+    height: 50px;
+    font-size: 16pt;
+    border: none;
+    background-color: rgb(8, 139, 67);
+    color: #FFFFFF;
+}
+
+.edit-button:hover {
+    background-color: #064b08;
+    cursor: pointer;
+}
